@@ -1,0 +1,50 @@
+{
+  "name": "js-utils",
+  "version": "1.0.0",
+  "description": "A bunch of useful ES6 stuff for daily JS programming",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production",
+    "pretest": "eslint \"src/**/*.js\" \"test/**/*.js\"",
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martincleto/js-utils.git"
+  },
+  "keywords": [
+    "es6",
+    "js",
+    "utils"
+  ],
+  "author": "Santiago Martin-Cleto",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/martincleto/js-utils/issues"
+  },
+  "homepage": "https://github.com/martincleto/js-utils#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.11",
+    "eslint": "^5.2.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.0.7",
+    "jasmine-core": "^3.1.0",
+    "karma": "^2.0.4",
+    "karma-babel-preprocessor": "^7.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage": "^1.1.2",
+    "karma-es6-shim": "^1.0.0",
+    "karma-jasmine": "^1.1.2",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-webpack": "^3.0.0",
+    "mini-css-extract-plugin": "^0.2.0",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.12",
+    "webpack-dev-server": "^3.1.1"
+  },
+  "dependencies": {}
+}
